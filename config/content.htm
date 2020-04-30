@@ -8,20 +8,20 @@
 <p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p><h1>Develop</h1>
+<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>week</h1>
+<p><br/><br/><br/><br/><strong></strong></p>
 <h2>week1~week5</h2>
 <p><span>week1</span></p>
 <p><span>1.下載</span><span><a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing">2019Fall可攜套件.7z</a></span><span><span> </span>(編譯  Solvespace 用)，下載後開啟。<br/>2.登入github的個人帳號，創建新的倉儲cd2020。<br/></span><span>3.進入要存放的</span><span>資料夾<br/></span><span>4.輸入</span><span>git clone  <span>https://github.com/s40723246/cd2020<span> 。</span></span><span><br/>5.輸入git submodule add https://github.com/mdecourse/cmsimde.git 。<br/>6.再將up_dir的裡的資料複<span>製到資料夾cd2020</span>。<br/>7.以上動作完成後，使用python wsgi.py 開始編輯倉儲。<br/>8.編輯結束後，<span> </span>git add .<span><span> </span>&gt;</span><span> </span>git commit -m "  "<span><span> </span>&gt;</span><span> </span>git push。   </span></span></p>
 <p><span><span>week2</span></span></p>
-<p>WEEK 2</p>
-<p><span><strong>New pull request3.8.2操作:</strong></span><span><strong><br/></strong>1.登入個人的github，fork<a href="https://github.com/mdecourse/cd2020">老師的倉儲</a>。<br/><img alt="" height="35" src="https://s40723227.github.io/cd2020/images/4.png" width="700"/><br/>2.在個人帳號倉儲中找到fork的倉儲，並複製倉儲網址。<br/>3.輸入指令 git clone --recurse-submodules fork的網址 ，將倉儲clone下來。<br/>4.完成後，進入9443編輯網站。<br/>5.完成編輯，接著git add .commit.push。<br/>6.使用個人帳號下fork 倉儲，建立New pull request。<br/></span><span>7.提交後等待老師接受並且merge即完成。</span></p>
+<p><span><strong>New pull request3.8.2操作:</strong></span><span><strong><br/></strong>1.登入個人的github，fork<a href="https://github.com/mdecourse/cd2020">老師的倉儲</a>。<br/>2.在個人帳號倉儲中找到fork的倉儲，並複製倉儲網址。<br/>3.輸入指令 git clone --recurse-submodules fork的網址 ，將倉儲clone下來。<br/>4.完成後，進入9443編輯網站。<br/>5.完成編輯，接著git add .commit.push。<br/>6.使用個人帳號下fork 倉儲，建立New pull request。<br/></span><span>7.提交後等待老師接受並且merge即完成。</span></p>
 <p><span><strong><span>將可攜系統更新至 python3.8.2 版本</span></strong></span></p>
-<p>1.在隨身系統下新增一個資料夾cd2020，並在cd2020下新建資料夾data，接著在data下新增資料夾py382及<span>wscite432、portablegit</span>。<br/>2.進入<a href="https://www.python.org/">Python</a>官網。<br/><span color="#808080">3.點選Downloads下的<a href="https://www.python.org/downloads/windows/">Windows</a>，並點選<a href="https://www.python.org/downloads/release/python-382/">Latest Python 3 Release - Python 3.8.2</a>。<br/></span><span color="#808080"><img alt="" height="231" src="https://s40723227.github.io/cd2020/images/1.png" width="700"/><br/>4.滑至最底，找到<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a>並下載。</span><span color="#808080"><br/><img alt="" height="266" src="https://s40723227.github.io/cd2020/images/2.png" width="700"/><br/>5.開始下載，必須將pip選項取消，接著按下next並將檔案下載至資料夾py382。<br/><img alt="" height="426" src="https://s40723227.github.io/cd2020/images/3.png" width="700"/><br/><span><br/></span></span><span>6.下載SciTE系統 <span><a href="https://www.scintilla.org/wscite432.zip">full 64-bit download</a>，下載完後解壓縮至data下的wscite432。</span></span></p>
-<p><span color="#000000"><span>7.建立新的start.bat及stop.bat。</span></span></p>
+<p>1.在隨身系統下新增一個資料夾cd2020，並在cd2020下新建資料夾data，接著在data下新增資料夾py382及<span>wscite432、portablegit</span>。<br/>2.進入<a href="https://www.python.org/">Python</a>官網。<br/><span color="#808080">3.點選Downloads下的<a href="https://www.python.org/downloads/windows/">Windows</a>，並點選<a href="https://www.python.org/downloads/release/python-382/">Latest Python 3 Release - Python 3.8.2</a>。<br/></span><span color="#808080">4.滑至最底，找到<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a>並下載。</span><span color="#808080"><br/>5.開始下載，必須將pip選項取消，接著按下next並將檔案下載至資料夾py382。<br/></span><span>6.下載SciTE系統 <span><a href="https://www.scintilla.org/wscite432.zip">full 64-bit download</a>，下載完後解壓縮至data下的wscite432。</span></span><span color="#000000"><span>7.建立新的start.bat及stop.bat。</span></span></p>
 <p><strong>start.bat:</strong></p>
 <div>
 <div class="syntaxhighlighter py" id="highlighter_317653">
@@ -177,9 +177,8 @@
 </table>
 </div>
 </div>
-<div></div>
 <div>
-<div class="syntaxhighlighter py" id="highlighter_220325">
+<p></p>
 <table border="0" cellpadding="0" cellspacing="0">
 <tbody>
 <tr>
@@ -195,4 +194,119 @@
 </tbody>
 </table>
 </div>
-</div>
+<h2>week6~week10</h2>
+<p><span><strong>WEEK6</strong></span></p>
+<p><strong>．安裝OBSPortable.exe與yotube,拍影片頭像會有自己的影像左下角</strong></p>
+<h1>開會紀錄</h1>
+<h2>第1次開會紀錄</h2>
+<p><span><strong><span data-contrast="auto"><span data-wac-het="1">會議流程：</span></span></strong></span></p>
+<ol>
+<li><span data-contrast="auto"><span data-wac-het="1">成員簽到</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+<li><span data-contrast="auto"><span data-wac-het="1">討論日後分工</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+<li><span data-contrast="auto"><span data-wac-het="1">有問題的同學提出問題</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+</ol>
+<p><span><strong><span data-contrast="auto"><span data-wac-het="1">成員名單</span></span><span data-ccp-props="{}" data-wac-het="1"> :</span></strong></span></p>
+<ul>
+<li><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1">40723201</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">(簽</span><span data-wac-het="1">) 已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723206 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站<span> (</span></span></span><span data-contrast="none"><span data-wac-het="1">小組長)</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723213 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723216 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723223 (簽) </span></span><span data-ccp-props="{}" data-wac-het="1"><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723226 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723229 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站<span> (</span><span data-contrast="none"><span data-wac-het="1">小組長)</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723230 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723241 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站 </span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723242 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站<span> (</span><span data-contrast="none"><span data-wac-het="1">小組長)</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723246 (簽)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">已建立完成網站</span></span><span data-ccp-props="{}" data-wac-het="1"><span> (group leader)</span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40732319 (簽)</span></span><span data-ccp-props="{}" data-wac-het="1">  </span></li>
+</ul>
+<p><span><strong><span data-contrast="none"><span data-wac-het="1">日後小組分工</span></span><span data-ccp-props="{}" data-wac-het="1">：</span></strong></span></p>
+<ul>
+<li><span data-contrast="none"><span data-wac-het="1">由（40723201、40723206、40723230、40723241、40723246），</span><span data-wac-het="1">已經建立好網站及編輯完網站的同學，前去協助還沒完成的同學，<span>及分配工作。</span></span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723213</span></span><span data-contrast="none"><span data-wac-het="1">、</span></span><span data-contrast="none"><span data-wac-het="1">40723242督處尚未完成的同學，互相協助來完成第一周課程</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723223</span></span><span data-contrast="none"><span data-wac-het="1">、</span></span><span data-contrast="none"><span data-wac-het="1">40723226負責處理小組會議</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723246<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">負責製作小組會議PDF<span>。</span></span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1">40723241</span></span><span data-contrast="none"><span data-wac-het="1">、</span></span><span data-contrast="none"><span data-wac-het="1">40723216提醒小組問題及完成分組作業</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+</ul>
+<p><span><strong><span data-contrast="none"><span data-wac-het="1">組員會議中提醒的事項：</span></span></strong></span></p>
+<ol>
+<li><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">網站的格式及編譯</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+<li><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">其餘的工作分配</span></span><span data-ccp-props="{}" data-wac-het="1"> <span>。</span></span></li>
+<li><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">PDF放倉儲的download及如何放置<span>。</span></span></span></li>
+</ol>
+<p><strong><span data-contrast="none"><span data-wac-het="1"><span>開會影片：<a href="https://www.youtube.com/watch?v=nKNgEypBalo#action=share">https://www.youtube.com/watch?v=nKNgEypBalo#action=share</a><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/nKNgEypBalo" width="560"></iframe></span></span></span></strong></p>
+<h2>第2次開會紀錄</h2>
+<p><span><strong><span data-contrast="auto"><span data-wac-het="1"><span><span>會議流程：</span></span></span></span></strong></span></p>
+<ol>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>成員簽到等候</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"><span><span><span> </span> 。</span></span></span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>分工業進度回報及問題討論</span></span></span></span><span><span data-ccp-props="{}" data-wac-het="1"><span><span>。</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> <span><span></span></span></span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>有問題的同學提出問題</span></span></span></span><span><span data-ccp-props="{}" data-wac-het="1"><span><span>。</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> <span><span></span></span></span></li>
+</ol>
+<p><span><strong><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="auto"><span data-wac-het="1"><span><span>成員名單：</span></span></span></span></strong><span data-ccp-props="{}" data-wac-het="1"> </span></span></p>
+<ul>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span><span>40723201 </span></span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>（</span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>簽</span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723206（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span></span><span data-contrast="none"><span><span><span> （</span></span></span></span><span data-contrast="none"><span data-wac-het="1"><span><span>小組長）</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723213（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723216（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723223（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723226（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723229（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span><span><span data-contrast="auto"><span data-wac-het="1"><span data-contrast="none"><span><span>（</span></span></span></span></span></span><span><span data-contrast="auto"><span data-wac-het="1"><span data-contrast="none"><span data-wac-het="1"><span>小組長）</span></span></span></span></span></span></span><span><span> </span><span data-contrast="auto"><span data-wac-het="1"><span data-contrast="none"><span><span></span></span></span><span data-contrast="none"><span data-wac-het="1"><span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></span></span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723230（）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723241（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站 </span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40723242（簽）</span></span><span> </span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>已建立完成網站</span><span><span data-contrast="auto"><span data-wac-het="1"><span data-contrast="none"><span><span>（</span></span></span></span></span></span><span><span data-contrast="auto"><span data-wac-het="1"><span data-contrast="none"><span data-wac-het="1"><span>小組長）</span></span></span></span></span></span></span><span><span> </span><span data-contrast="auto"><span data-wac-het="1"><span data-contrast="none"><span><span></span></span></span><span data-contrast="none"><span data-wac-het="1"><span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></span></span></li>
+<li><span data-contrast="none"><span data-wac-het="1"><span><span>40723246<span> </span></span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>（</span></span><span><span></span></span></span></span><span><span data-contrast="none"><span data-wac-het="1"><span>簽 <span> </span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span>）</span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span> 已建立完成網站 </span></span></span></span></span><span data-ccp-props="{}" data-wac-het="1"><span><span><span>（小組組長）</span></span></span></span></li>
+<li><span data-contrast="auto"><span data-wac-het="1"><span><span>40732319（）</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+</ul>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span><b><span data-contrast="auto"><span data-wac-het="1"><span><span>分工業進度回報及問題討論</span></span></span></span></b><span data-ccp-props="{}" data-wac-het="1"><span><span><span> </span> ：</span></span></span></span></p>
+<ul>
+<li><span><span data-ccp-props="{}" data-wac-het="1"> </span><span><strong><span data-contrast="auto"><span data-wac-het="1"><span><span>作業一 <span> </span></span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>（4<span> </span></span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>輪</span></span></span><span data-wac-het="1"><span><span>車）</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></strong></span></span></li>
+</ul>
+<p><span data-contrast="auto"><span data-wac-het="1"><span><span>根據主題0和主題1的素材，您能否全面描述機械設計團隊，為了完成作業四輪機器人需要做些</span></span></span><span data-wac-het="1"><span><span>什麼？</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<ul>
+<li><span data-ccp-props="{}" data-wac-het="1"> </span><strong><span data-contrast="auto"><span data-wac-het="1"><span><span>作業二 <span> </span></span></span></span><span data-wac-het="1"><span><span>（設計</span></span></span><span data-wac-het="1"><span><span>協同）</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></strong></li>
+</ul>
+<p><span data-contrast="auto"><span data-wac-het="1"><span><span>根據主題</span></span></span></span><span data-contrast="none"><span data-wac-het="1"><span> </span><span><span>Topic 0<span> </span></span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>們可以創建英語英語詞彙收集服務嗎？</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="auto"><span data-wac-het="1"><span><span>根據主題</span></span></span></span><span><span data-contrast="none"><span data-wac-het="1"><span>Topic 1<span> </span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span>我們可以構建在線工具來促進這些過程嗎？</span></span></span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1"><span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span> </span><span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><strong><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span><span><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span><span>主題0：</span></span></span></span></i><span><i><span data-contrast="auto"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span>從數字到工業+工程產品設計協作（</span></span></span></i><i><span data-contrast="auto"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span>從數字到工業+工程產品設計協作</span></span></span></i><i><span data-contrast="auto"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span>）</span></span></span></i></span><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"> </span></span></i><i><span data-contrast="auto"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span></span></span><span data-ccp-parastyle="heading 4" data-wac-het="1"><span></span></span><span data-ccp-parastyle="heading 4" data-wac-het="1"><span></span></span></span></i><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></span></strong></p>
+<p><span data-contrast="none"><span data-wac-het="1"><span><span>設計</span></span></span><span data-wac-het="1"><span><span>資料</span></span></span></span><span data-contrast="none"><span data-wac-het="1"><span><span>：</span></span></span></span><a href="https://drive.google.com/open?id=1YHQwYduSMisiJQS-Jr_HhJghzIqP_SBc"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1"><span><span>DigitalProductCollaboration.pdf</span></span></span></span></a><span data-contrast="none"><span data-wac-het="1"><span><span>，</span></span></span></span><a href="https://drive.google.com/file/d/1KRwEcU7Vn65xL6twStG_EWaTKz1Ag8PG/view?usp=sharing"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1"><span><span>IndustrialAndEngineeringProductDesignCollaboration.pdf</span></span></span></span></a><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1"><span><span>我們可以創建</span></span><span> </span></span></span><span data-contrast="none"><span data-wac-het="1"><span><span>英語英語</span></span></span></span><span data-contrast="none"><span data-wac-het="1"><span> </span><span><span>詞彙收集服務嗎？</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1"><span><span>相關</span></span></span><span data-wac-het="1"><span><span>網站：</span></span></span></span><span><a href="https://www.autoitscript.com/forum/files/file/419-dictionary_bigdb/"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1"><span>https</span></span></span></a><span data-contrast="none"><span data-wac-het="1"><span><span> </span>:<span> </span></span></span></span></span><a href="https://www.autoitscript.com/forum/files/file/419-dictionary_bigdb/"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1"><span><span>//www.autoitscript.com/forum/files/file/419-dictionary_bigdb/</span></span></span></span></a><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><strong><span><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span><span>主題1<span> </span></span></span></span></span></i><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span><span>：</span></span></span></span></i><span><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span>機械設計流程（</span></span></span></i><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span>機械設計過程</span></span></span></i><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span>）</span></span></span></i></span><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"> </span></span></i><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1"><span></span></span><span data-ccp-parastyle="heading 4" data-wac-het="1"><span></span></span><span data-ccp-parastyle="heading 4" data-wac-het="1"><span></span></span></span></i><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></span></strong></p>
+<p><span data-contrast="none"><span data-wac-het="1"><span><span>登錄到您的gm電子郵件帳戶，然後下載</span></span><span> </span></span></span><a href="https://drive.google.com/file/d/13THamnfayiRT4Wa9KzmjXQSP4ZW2jIej/view?usp=sharing"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1"><span><span>MechanicalDesignProcess.pdf</span></span></span></span></a><span data-contrast="none"><span data-wac-het="1"><span><span>。</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><strong><span data-contrast="auto"><span data-wac-het="1"><span><span>以上由 <span> </span></span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>40723206 <span> </span></span></span></span></span><span data-contrast="auto"><span data-wac-het="1"><span><span>分配工作</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"><span><span><span> </span> 。</span></span></span></strong></p>
+<p><span><strong><span data-contrast="none"><span data-wac-het="1"><span><span>下列為分工表格：</span></span></span></span></strong></span></p>
+<p><img alt="" height="269" src="https://s40723246.github.io/cd2020/images/%E5%88%86%E5%B7%A52.PNG" width="455"/></p>
+<ul>
+<li><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="auto"><span data-wac-het="1"><span><span>各組員下載OBS，往後會議討論用</span></span></span></span><span data-ccp-props="{}" data-wac-het="1"> </span></li>
+<li><span><span>作業二必須在4/23前完成，並上傳pdf檔到個人倉儲的下載上。不會做的可以問會的同學或在gitter上發問。</span></span></li>
+<li><span><span>請依每個人的作業二pdf檔，網站內容，進行互評。</span></span></li>
+</ul>
+<p><span data-ccp-props="{}" data-wac-het="1"></span></p>
+<p><span><strong><span><span>本週討論教材：</span></span></strong></span></p>
+<h4><span><span>主題0：從數字到工業+工程<span> </span></span></span><a href="https://youtu.be/Q0R_g1xw3dQ"></a><span><span>產品設計協作</span></span></h4>
+<p><span><span>登錄到您的通用汽車電子郵件帳戶並下載</span></span></p>
+<p><a href="https://drive.google.com/open?id=1YHQwYduSMisiJQS-Jr_HhJghzIqP_SBc"><span><span>DigitalProductCollaboration.pdf</span></span></a></p>
+<p><a href="https://drive.google.com/file/d/1KRwEcU7Vn65xL6twStG_EWaTKz1Ag8PG/view?usp=sharing"><span><span>工業與工程產品設計協作.pdf</span></span></a></p>
+<p><span><span>我們可以創建英語英語詞彙收集服務嗎？</span></span></p>
+<p><a href="https://www.autoitscript.com/forum/files/file/419-dictionary_bigdb/"><span><span>https://www.autoitscript.com/forum/files/file/419-dictionary_bigdb/</span></span></a></p>
+<h4><span><span>主題1：機械設計過程</span></span></h4>
+<p><span><span>登錄到您的gm電子郵件帳戶，然後下載</span><a href="https://drive.google.com/file/d/13THamnfayiRT4Wa9KzmjXQSP4ZW2jIej/view?usp=sharing"><span>MechanicalDesignProcess.pdf</span></a><span>。</span></span><span> </span><a href="https://drive.google.com/file/d/13THamnfayiRT4Wa9KzmjXQSP4ZW2jIej/view?usp=sharing"><span></span></a><span></span></p>
+<p><span><span>（我們可以構建在線工具來促進這些過程嗎？）</span></span></p>
+<p><span><span>成功的設計</span></span></p>
+<p><span><span>建立設計</span></span></p>
+<p><span><span>結構上的考慮</span></span></p>
+<p><span><span>材料與工藝</span></span></p>
+<h4><span><span>主題二：機電一體化系統設計</span></span></h4>
+<p><span><span>登錄到您的gm電子郵件帳戶，然後下載</span><a href="https://drive.google.com/file/d/1KRb8vX_LB_3hkLwK1z1LOP8wl_StIZOR/view?usp=sharing"><span>MSModelingAndTFApproaches.pdf</span></a><span>。</span></span><span> </span><a href="https://drive.google.com/file/d/1KRb8vX_LB_3hkLwK1z1LOP8wl_StIZOR/view?usp=sharing"><span></span></a><span></span></p>
+<p><span><span><span>（我們可以構建在線工具來促進這些過程嗎？）</span></span></span></p>
+<p><span><span>機電一體化系統</span></span></p>
+<p><span><span>數學建模</span></span></p>
+<p><span><span>傳遞函數方法</span></span></p>
+<p><span><span>登錄到您的gm電子郵件帳戶並下載</span><a href="https://drive.google.com/file/d/1y0QH6vI8uMymK9JI35EShVFS40Q8uwwq/view?usp=sharing"><span>MechatronicDesignCases.pdf</span></a><span>。</span></span><span> </span><a href="https://drive.google.com/file/d/1y0QH6vI8uMymK9JI35EShVFS40Q8uwwq/view?usp=sharing"><span></span></a><span></span></p>
+<p><span><span>直流電動機速度和位置控制</span></span></p>
+<p><span><span>平衡機器人控制</span></span></p>
+<p><span><span>磁懸浮系統</span></span></p>
+<p><strong><span><span><span>參加影片：<a href="https://www.youtube.com/watch?v=Q0R_g1xw3dQ#action=share" title="https://www.youtube.com/watch?v=Q0R_g1xw3dQ#action=share">https://www.youtube.com/watch?v=Q0R_g1xw3dQ#action=share</a><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Q0R_g1xw3dQ" width="560"></iframe></span></span></span></strong></p>
+<h2>第3次開會紀錄</h2>
+<p><strong><span>第一組 第三次會議 </span><br/><br/><span>1.成員簽到等候</span><br/><span>2.分工作業進度回報及問題討論</span><br/><span>3.有問題的同學提出問題</span><br/><br/><span>成員名單</span><br/><span>1.40723201 (簽) 已建立完成網站</span><br/><span>2.40723206 (簽) 已建立完成網站 小組長</span><br/><span>3.40723213 (簽) 已建立完成網站</span><br/><span>4.40723216 (簽) 已建立完成網站</span><br/><span>5. 40723223(簽) 已建立完成網站</span><br/><span>6.40723226 () 已建立完成網站</span><br/><span>7.40723229 (簽) 已建立完成網站 小組長</span><br/><span>8.40723230 (簽) 已建立完成網站</span><br/><span>9.40723241 (簽) 已建立完成網站</span><br/><span>10.40723242 () 已建立完成網站 小組長</span><br/><span>11.40723246 (group leader) (簽) 已建立完成網站</span><br/><span>12.40732319 ()</span><br/><br/><span>※作業一(4 輪車)</span><br/><span>*根據主題 0 和主題 1 的素材，您能否具體描述機械設計團隊，為了完成作業四輪機 器人需要做些什麼?</span><br/><br/><span>四輪車馬達設定及鍵盤控制加速及轉彎</span><br/><br/><br/><span>本週重要提醒及任務</span><br/><br/><span>1.各組員下載 OBS，以往後會議討論用 2. 作業二必須在 4/23 前完成，並上傳 pdf 檔到個人倉儲的 download 上。 不會做 的可以問會的同學或在 gitter 上發問 3. 請依每個人的作業二 pdf 檔、網</span></strong><strong><span>站內容，進行互評 4.把網站不是自己資料的標題刪除</span></strong></p>
+<p><strong><span><a href="https://www.youtube.com/watch?time_continue=60&amp;v=T3PWWPAqDgY&amp;feature=emb_logo">https://www.youtube.com/watch?time_continue=60&amp;v=T3PWWPAqDgY&amp;feature=emb_logo</a></span></strong><strong><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/T3PWWPAqDgY" width="560"></iframe></span></strong></p>
