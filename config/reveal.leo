@@ -98,8 +98,6 @@
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.10">## 40723226 網際內容管理
 
-### 40723226
-
 &lt;small&gt;
 Created by [40723226](http://lab.kmol.info/)
 &lt;/small&gt;
