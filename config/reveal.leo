@@ -131,15 +131,6 @@ Created by [40723226](http://lab.kmol.info/)
 鄭竣元 40723246  (group leader)
  40732319
 
-
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
@@ -409,12 +400,6 @@ vertical: body pane on the botton</t>
 8.儲存後點擊ROC，回到黑窗輸入指令
 9.完成後進入cd2020pj1開啟python wsgi.py
 10.進到頁面後輸入身分認證後完成
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
 <t tx="leo.20200624161739.1">&lt;section data-markdown&gt;
@@ -440,12 +425,7 @@ vertical: body pane on the botton</t>
 10.開啟啟動器，並開啟下載好的CoppeliaSim四輪車控制器檔案。
 11.將檔案中的car_model.py放入編譯器中執行。
 12.打開CoppeliaSim中的模擬，四輪車開始繞圈即成功。
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624161740.1">&lt;section data-markdown&gt;
@@ -460,12 +440,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200624161740.2"># week12
 ##翻譯：MSModelingAndTFApproaches
 p121.~p150.
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624161742.1">&lt;section data-markdown&gt;
@@ -502,12 +477,7 @@ p121.~p150.
 11.輸入python3 wsgi.py
 
 12.進入https://127.0.0.1:18443/alogin進入後門和輸入admin測試是否可以上傳ttt檔案
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624161745.1">&lt;section data-markdown&gt;
@@ -521,12 +491,7 @@ p121.~p150.
 </t>
 <t tx="leo.20200624161745.2">#第4次開會紀錄
 (https://s40723226.github.io/cd2020/content/%E7%AC%AC4%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624161747.1">&lt;section data-markdown&gt;
@@ -540,12 +505,7 @@ p121.~p150.
 </t>
 <t tx="leo.20200624161747.2"># 第5次開會紀錄
 (https://s40723226.github.io/cd2020/content/%E7%AC%AC5%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624161749.1">&lt;section data-markdown&gt;
@@ -566,12 +526,7 @@ p121.~p150.
 5.輸入sudo vi wsgi.py更改host，:wq儲存
 6.新增網路設定9443
 7.輸入"python3 wsgi.py"啟動近端
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624161751.1">&lt;section data-markdown&gt;
@@ -592,12 +547,7 @@ p121.~p150.
 5.設定好協定SFTP和主機127.0.0.1和連接埠22及使用者kmol2020
 6.輸入密碼kmol2020
 7.設定好之後就進行虛擬主機資料的下載並更改後上傳
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624164208.1">&lt;section data-markdown&gt;
@@ -612,12 +562,7 @@ p121.~p150.
 <t tx="leo.20200624164208.2">#Assignment 1
 ##random grouping
 (https://s40723226.github.io/cd2020/content/random%20grouping.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624164210.1">&lt;section data-markdown&gt;
@@ -632,12 +577,6 @@ p121.~p150.
 <t tx="leo.20200624164210.2"># Assignment 1
 ##portable system
 (https://s40723226.github.io/cd2020/content/portable%20system.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
 <t tx="leo.20200624164212.1">&lt;section data-markdown&gt;
@@ -652,12 +591,7 @@ p121.~p150.
 <t tx="leo.20200624164212.2"># Assignment 1
 ##Four Wheel Car
 (https://s40723226.github.io/cd2020/content/Four%20Wheel%20Car.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624164214.1">&lt;section data-markdown&gt;
@@ -672,12 +606,7 @@ p121.~p150.
 <t tx="leo.20200624164214.2"># Assignment 2
 ##IndustrialAndEngineeringProductDesignCollaboration
 (https://s40723226.github.io/cd2020/content/IndustrialAndEngineeringProductDesignCollaboration.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624164646.1">&lt;section data-markdown&gt;
@@ -692,12 +621,7 @@ p121.~p150.
 <t tx="leo.20200624164646.2"># Assignment 2
 ##DesignCollaborationBetterProducts
 (https://s40723226.github.io/cd2020/content/DesignCollaborationBetterProducts.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624164648.1">&lt;section data-markdown&gt;
@@ -712,12 +636,7 @@ p121.~p150.
 <t tx="leo.20200624164648.2"># Assignment 2
 ##MechanicalDesignProcess thirth segment
 (https://s40723226.github.io/cd2020/content/MechanicalDesignProcess%20thirth%20segment.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624164651.1">&lt;section data-markdown&gt;
@@ -732,12 +651,6 @@ p121.~p150.
 <t tx="leo.20200624164651.2"># Assignment 2
 ##Mechanical Design Process first segment
 (https://s40723226.github.io/cd2020/content/Mechanical%20Design%20Process%20first%20segment.html)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
 <t tx="leo.20200624164706.1">&lt;section data-markdown&gt;
@@ -751,12 +664,7 @@ p121.~p150.
 </t>
 <t tx="leo.20200624164706.2"># Assignment 3
 ##翻譯(https://drive.google.com/file/d/1KRb8vX_LB_3hkLwK1z1LOP8wl_StIZOR/view)
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
 
 </t>
 <t tx="leo.20200624164910.1">&lt;section data-markdown&gt;
@@ -769,13 +677,6 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164910.2">#期末報告結束
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
 </t>
 </tnodes>
 </leo_file>
