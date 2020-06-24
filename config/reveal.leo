@@ -451,15 +451,15 @@ p121.~p150.
 </t>
 <t tx="leo.20200624161742.2"># week14
 ## ubnutu對外連線（ipv4）
- 1.設定好埠號登錄UBNUTU密碼是KMOL2020
- 2.打開Lxterminal並輸入ifconfig和輸入sudo apt install net-tools輸入密碼為kmol2020
- 3.輸入ping6 127.0.0.1測試
- 4.輸入進入cd2020pj1資料夾中和git pull
- 5..輸入sudo vi wsgi.py和點擊i編輯內容對主機編輯設置為10.0.2.4
- 6到影片中的資料夾位置收回cd202用nav找到allowext7檔案位置和添加ttt檔案
- 7.0pj1.leo檔案和用leo開啟
- 8.在tmp底下輸入sudo vi oauth_scrum.txt,輸入python3 wsgi.py
- 9.進入https://127.0.0.1:18443/alogin進入後門和輸入admin測試是否可以上傳ttt檔案
+ 1.設定好埠號登錄UBNUTU
+ 2.打開Lxterminal並輸入ifconfig和輸入sudo apt install net-tools
+ 3輸入進入cd2020pj1資料夾中和git pull
+ 4.輸入sudo vi wsgi.py和點擊i編輯內容對主機編輯設置為10.0.2.4
+ 5..收回cd202用nav找到allowext7檔案位置和添加ttt檔
+ 60pj1.leo檔案和用leo開啟
+ 7..在tmp底下輸入sudo vi oauth_scrum.txt,輸入python3 wsgi.py
+ 8.進入https://127.0.0.1:18443/alogin進入後門和輸入admin測試是否可以上傳檔案
+
 
 
 </t>
@@ -501,14 +501,14 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624161749.2"># week16
-##### IPv6連線倉儲
-####### 1.需先設置好IPv6遠端遙控伺服
-####### 2.開啟主機後clone自己的倉儲
-####### 3.ifconfig查詢主機IPv6位置
-####### .進入自己倉儲的cmsimde
-####### .輸入sudo vi wsgi.py更改host，:wq儲存
-####### 6.新增網路設定9443
-####### 7.輸入"python3 wsgi.py"啟動近端
+### IPv6連線倉儲
+ 1.需先設置好IPv6遠端遙控伺服
+ 2.開啟主機後clone自己的倉儲
+ 3.ifconfig查詢主機IPv6位置
+ .進入自己倉儲的cmsimde
+ .輸入sudo vi wsgi.py更改host，:wq儲存
+ 6.新增網路設定9443
+ 7.輸入"python3 wsgi.py"啟動近端
 
 
 </t>
