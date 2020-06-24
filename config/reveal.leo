@@ -388,16 +388,16 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200624161642.2"># week10
 ## gm用戶登錄設置
-##### 1.首先將cd2020pj1 clone下來
-##### 2.啟用API，選擇Google+Domains API
-##### 3.建立憑證，選擇OAuth ID，選擇"網頁應用程式"
-##### 4.輸入授權來源網址
-##### 5.使用者類型設為"內部"
-##### 6.將用戶端ID及用戶端密碼存入txt，修改名稱後放入與2020pj1同個介面
-##### 7.打開leo，開啟cd2020pj1.leo，修改內容
-##### 8.儲存後點擊ROC，回到黑窗輸入指令
-##### 9.完成後進入cd2020pj1開啟python wsgi.py
-##### .進到頁面後輸入身分認證後完成
+####### 1.首先將cd2020pj1 clone下來
+####### 2.啟用API，選擇Google+Domains API
+####### 3.建立憑證，選擇OAuth ID，選擇"網頁應用程式"
+####### 4.輸入授權來源網址
+####### 5.使用者類型設為"內部"
+####### 6.將用戶端ID及用戶端密碼存入txt，修改名稱後放入與2020pj1同個介面
+####### 7.打開leo，開啟cd2020pj1.leo，修改內容
+####### 8.儲存後點擊ROC，回到黑窗輸入指令
+####### 9.完成後進入cd2020pj1開啟python wsgi.py
+####### 10.進到頁面後輸入身分認證後完成
 
 </t>
 <t tx="leo.20200624161739.1">&lt;section data-markdown&gt;
@@ -411,16 +411,16 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200624161739.2"># week11
 ## ubuntu設置
-##### 1.下載vitualbox、ubuntu、CoppeliaSim四輪車控制器檔案。
-##### 2.開啟vitualbox，匯入ubuntu。
-##### 3.設定虛擬主機的網路埠號。
-##### 4.設定完成後啟動ubuntu。
-##### 5.輸入密碼kmol2020，開啟lxterminal，輸入xterm&amp;開啟
-##### 6.使用ctrl+右鍵將視窗放大
-##### 7.cd coppeliasim4_rev4-&gt;ls-&gt;cd CoppeliaSim_Edu_v4_0_0_Ubuntu18_04-&gt;ls-&gt;./coppeliaSim.sh。
-##### 8.開啟後打開檔案sdc.ttt。
-##### 9.開啟啟動器，並開啟下載好的CoppeliaSim四輪車控制器檔案。
-##### 10.將檔案中的car_model.py放入編譯器中執行。
+####### 1.下載vitualbox、ubuntu、CoppeliaSim四輪車控制器檔案。
+####### 2.開啟vitualbox，匯入ubuntu。
+####### 3.設定虛擬主機的網路埠號。
+####### 4.設定完成後啟動ubuntu。
+####### 5.輸入密碼kmol2020，開啟lxterminal，輸入xterm&amp;開啟
+####### 6.使用ctrl+右鍵將視窗放大
+####### 7.cd coppeliasim4_rev4-&gt;ls-&gt;cd CoppeliaSim_Edu_v4_0_0_Ubuntu18_04-&gt;ls-&gt;./coppeliaSim.sh。
+####### 8.開啟後打開檔案sdc.ttt。
+####### 9.開啟啟動器，並開啟下載好的CoppeliaSim四輪車控制器檔案。
+####### 10.將檔案中的car_model.py放入編譯器中執行。
 
 
 
@@ -451,15 +451,15 @@ p121.~p150.
 </t>
 <t tx="leo.20200624161742.2"># week14
 ## ubnutu對外連線（ipv4）
-##### 1.設定好埠號登錄UBNUTU密碼是KMOL2020
-##### 2.打開Lxterminal並輸入ifconfig和輸入sudo apt install net-tools輸入密碼為kmol2020
-##### 3.輸入ping6 127.0.0.1測試
-##### 4.輸入進入cd2020pj1資料夾中和git pull
-##### 5..輸入sudo vi wsgi.py和點擊i編輯內容對主機編輯設置為10.0.2.4
-##### 6到影片中的資料夾位置收回cd202用nav找到allowext7檔案位置和添加ttt檔案
-##### 7.0pj1.leo檔案和用leo開啟
-##### 8.在tmp底下輸入sudo vi oauth_scrum.txt,輸入python3 wsgi.py
-##### 9.進入https://127.0.0.1:18443/alogin進入後門和輸入admin測試是否可以上傳ttt檔案
+####### 1.設定好埠號登錄UBNUTU密碼是KMOL2020
+####### 2.打開Lxterminal並輸入ifconfig和輸入sudo apt install net-tools輸入密碼為kmol2020
+####### 3.輸入ping6 127.0.0.1測試
+####### 4.輸入進入cd2020pj1資料夾中和git pull
+####### 5..輸入sudo vi wsgi.py和點擊i編輯內容對主機編輯設置為10.0.2.4
+####### 6到影片中的資料夾位置收回cd202用nav找到allowext7檔案位置和添加ttt檔案
+####### 7.0pj1.leo檔案和用leo開啟
+####### 8.在tmp底下輸入sudo vi oauth_scrum.txt,輸入python3 wsgi.py
+####### 9.進入https://127.0.0.1:18443/alogin進入後門和輸入admin測試是否可以上傳ttt檔案
 
 
 </t>
@@ -502,13 +502,13 @@ p121.~p150.
 </t>
 <t tx="leo.20200624161749.2"># week16
 ## IPv6連線倉儲
-##### 1.需先設置好IPv6遠端遙控伺服
-##### 2.開啟主機後clone自己的倉儲
-##### 3.ifconfig查詢主機IPv6位置
-##### .進入自己倉儲的cmsimde
-##### .輸入sudo vi wsgi.py更改host，:wq儲存
-##### 6.新增網路設定9443
-##### 7.輸入"python3 wsgi.py"啟動近端
+####### 1.需先設置好IPv6遠端遙控伺服
+####### 2.開啟主機後clone自己的倉儲
+####### 3.ifconfig查詢主機IPv6位置
+####### .進入自己倉儲的cmsimde
+####### .輸入sudo vi wsgi.py更改host，:wq儲存
+####### 6.新增網路設定9443
+####### 7.輸入"python3 wsgi.py"啟動近端
 
 
 </t>
@@ -523,13 +523,13 @@ p121.~p150.
 </t>
 <t tx="leo.20200624161751.2"># week13
 ## filezilla設定
-##### 1.下載 filezilla，設定putty
-##### 2.設定的ip為虛擬主機
-##### .Putty成功啟用後輸入kmol2020
-##### 4.開啟filezilla，新增站台
-##### .設定好協定SFTP和主機127.0.0.1和連接埠22及使用者kmol2020
-##### 6.輸入密碼kmol2020
-##### 7.設定好之後就進行虛擬主機資料的下載並更改後上傳
+####### 1.下載 filezilla，設定putty
+####### 2.設定的ip為虛擬主機
+####### .Putty成功啟用後輸入kmol2020
+####### 4.開啟filezilla，新增站台
+####### .設定好協定SFTP和主機127.0.0.1和連接埠22及使用者kmol2020
+####### 6.輸入密碼kmol2020
+####### 7.設定好之後就進行虛擬主機資料的下載並更改後上傳
 
 
 </t>
