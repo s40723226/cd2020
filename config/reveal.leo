@@ -410,7 +410,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200624161739.2"># week11
-###### ubuntu設置
+#### ubuntu設置
  1.下載vitualbox、ubuntu、CoppeliaSim四輪車控制器檔案。
  2.開啟vitualbox，匯入ubuntu。
  3.設定虛擬主機的網路埠號。
@@ -522,14 +522,14 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624161751.2"># week13
-##### filezilla設定
-####### 1.下載 filezilla，設定putty
-####### 2.設定的ip為虛擬主機
-####### .Putty成功啟用後輸入kmol2020
-####### 4.開啟filezilla，新增站台
-####### .設定好協定SFTP和主機127.0.0.1和連接埠22及使用者kmol2020
-####### 6.輸入密碼kmol2020
-####### 7.設定好之後就進行虛擬主機資料的下載並更改後上傳
+### filezilla設定
+ 1.下載 filezilla，設定putty
+ 2.設定的ip為虛擬主機
+ 3.Putty成功啟用後輸入kmol2020
+ 4.開啟filezilla，新增站台
+ 5 .設定好協定SFTP和主機127.0.0.1和連接埠22及使用者kmol2020
+ 6.輸入密碼kmol2020
+ 7.設定好之後就進行虛擬主機資料的下載並更改後上傳
 
 
 </t>
