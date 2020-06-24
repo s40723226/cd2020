@@ -302,10 +302,21 @@
 <li>輸入密碼kmol2020</li>
 <li>設定好之後就進行虛擬主機資料的下載並更改後上傳</li>
 </ul><h2>week16~week18</h2>
+<h4><strong><span>Week16</span></strong></h4>
+<p><span></span><strong>IPv6連線自己的倉儲</strong></p>
+<p>1.需先設置好IPv6遠端遙控伺服</p>
+<p>2.開啟主機後clone自己的倉儲</p>
+<p>   例:<span>git clone --recurse-submodules https://github.com/s40723213/cd2020.git</span></p>
+<p><span>3.ifconfig查詢主機IPv6位置</span></p>
+<p><span>4.進入自己倉儲的cmsimde</span></p>
+<p><span>5.輸入sudo vi wsgi.py更改host(用剛剛複製的蓋過127.0.0.1)，:wq儲存</span></p>
+<p><span>6.新增網路設定9443</span></p>
+<p><span><img alt="" height="290" src="https://s40723213.github.io/cd2020/images/9443.PNG" width="413"/></span></p>
+<p><span><img alt="" height="20" src="https://s40723213.github.io/cd2020/images/1993.PNG" width="403"/></span></p>
+<p><span>7.輸入"python3 wsgi.py"啟動近端</span></p>
 <p></p>
 <p></p>
-<p></p>
-<h1>開會紀錄</h1>
+<p></p><h1>開會紀錄</h1>
 <h2>第1次開會紀錄</h2>
 <p><span><strong><span data-contrast="auto"><span data-wac-het="1">會議流程：</span></span></strong></span></p>
 <ol>
