@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,30 +10,81 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
-<v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
-</v>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
+</v>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
+<v t="leo.20180902120523.5"><vh>head</vh></v>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
+<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
+<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161642.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161642.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161739.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161739.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161740.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161740.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161751.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161751.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161742.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161742.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161749.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161749.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161745.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161745.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624161747.1"><vh>快捷鍵</vh>
+<v t="leo.20200624161747.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164208.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164208.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164210.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164210.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164212.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164212.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164214.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164214.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164646.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164646.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164648.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164648.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164651.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164651.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164706.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164706.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200624164910.1"><vh>快捷鍵</vh>
+<v t="leo.20200624164910.2"><vh>投影片快捷鍵</vh></v>
 </v>
 </v>
 </v>
@@ -48,15 +96,15 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## 40723226 網際內容管理
 
-### KMOLab
+### 40723226
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40723226](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+[40723226 網誌](./../blog/index.html)
 
 
 </t>
@@ -69,7 +117,21 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
+<t tx="leo.20180902120523.12"># group members
+吳沛汶 40723201
+王冠驊 40723206 (小組長)
+杜玗宸 40723213
+林子欽 40723216
+洪維成 40723223
+高立倫 40723226
+陳羽泓40723229  (小組長)
+陳冠樺 40723230
+葉承叡 40723241
+趙子得 40723242  (小組長)
+鄭竣元 40723246  (group leader)
+ 40732319
+
+
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -326,5 +388,394 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200624161642.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161642.2"># week10
+##gm用戶登錄設置
+1.首先將cd2020pj1 clone下來
+2.啟用API，選擇Google+Domains API
+3.建立憑證，選擇OAuth ID，選擇"網頁應用程式"
+4.輸入授權來源網址
+5.使用者類型設為"內部"
+6.將用戶端ID及用戶端密碼存入txt，修改名稱後放入與2020pj1同個介面
+7.打開leo，開啟cd2020pj1.leo，修改內容
+8.儲存後點擊ROC，回到黑窗輸入指令
+9.完成後進入cd2020pj1開啟python wsgi.py
+10.進到頁面後輸入身分認證後完成
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624161739.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161739.2"># week11
+##ubuntu設置
+1.下載vitualbox、ubuntu、CoppeliaSim四輪車控制器檔案。
+2.開啟vitualbox，匯入ubuntu。
+3.設定虛擬主機的網路埠號。
+4.設定完成後啟動ubuntu。
+5.輸入密碼kmol2020，開啟lxterminal，輸入xterm&amp;開啟
+6.使用ctrl+右鍵將視窗放大
+7.依照步驟打開coppeliasim，輸入ls查看內容。
+8.cd coppeliasim4_rev4-&gt;ls-&gt;cd CoppeliaSim_Edu_v4_0_0_Ubuntu18_04-&gt;ls-&gt;./coppeliaSim.sh。
+9.開啟後打開檔案sdc.ttt。
+10.開啟啟動器，並開啟下載好的CoppeliaSim四輪車控制器檔案。
+11.將檔案中的car_model.py放入編譯器中執行。
+12.打開CoppeliaSim中的模擬，四輪車開始繞圈即成功。
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624161740.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161740.2"># week12
+##翻譯：MSModelingAndTFApproaches
+p121.~p150.
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624161742.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161742.2"># week14
+##ubnutu對外連線（ipv4）
+1.設定好埠號
+
+2.登錄ubnutu密碼是kmol2020
+
+3.打開Lxterminal並輸入ifconfig和輸入sudo apt install net-tools輸入密碼為kmol2020
+
+4.輸入ping6 127.0.0.1測試
+
+5.輸入進入cd2020pj1資料夾中和git pull
+
+6.輸入sudo vi wsgi.py和點擊i編輯內容對主機編輯設置為10.0.2.4
+
+7.點擊esc和輸入：wq來訪問
+
+8.到影片中的資料夾位置收回cd2020pj1.leo檔案和用leo開啟
+
+9.用nav找到allowext7檔案位置和添加ttt檔案
+
+10.在tmp底下輸入sudo vi oauth_scrum.txt
+
+11.輸入python3 wsgi.py
+
+12.進入https://127.0.0.1:18443/alogin進入後門和輸入admin測試是否可以上傳ttt檔案
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624161745.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161745.2">#第4次開會紀錄
+(https://s40723226.github.io/cd2020/content/%E7%AC%AC4%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624161747.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161747.2"># 第5次開會紀錄
+(https://s40723226.github.io/cd2020/content/%E7%AC%AC5%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624161749.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161749.2"># week16
+##IPv6連線倉儲
+1.需先設置好IPv6遠端遙控伺服
+2.開啟主機後clone自己的倉儲
+3.ifconfig查詢主機IPv6位置
+4.進入自己倉儲的cmsimde
+5.輸入sudo vi wsgi.py更改host，:wq儲存
+6.新增網路設定9443
+7.輸入"python3 wsgi.py"啟動近端
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624161751.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624161751.2"># week13
+##filezilla設定
+1.下載 filezilla，設定putty
+2.設定的ip為虛擬主機
+3.Putty成功啟用後輸入kmol2020
+4.開啟filezilla，新增站台
+5.設定好協定SFTP和主機127.0.0.1和連接埠22及使用者kmol2020
+6.輸入密碼kmol2020
+7.設定好之後就進行虛擬主機資料的下載並更改後上傳
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164208.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164208.2">#Assignment 1
+##random grouping
+(https://s40723226.github.io/cd2020/content/random%20grouping.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164210.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164210.2"># Assignment 1
+##portable system
+(https://s40723226.github.io/cd2020/content/portable%20system.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164212.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164212.2"># Assignment 1
+##Four Wheel Car
+(https://s40723226.github.io/cd2020/content/Four%20Wheel%20Car.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164214.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164214.2"># Assignment 2
+##IndustrialAndEngineeringProductDesignCollaboration
+(https://s40723226.github.io/cd2020/content/IndustrialAndEngineeringProductDesignCollaboration.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164646.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164646.2"># Assignment 2
+##DesignCollaborationBetterProducts
+(https://s40723226.github.io/cd2020/content/DesignCollaborationBetterProducts.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164648.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164648.2"># Assignment 2
+##MechanicalDesignProcess thirth segment
+(https://s40723226.github.io/cd2020/content/MechanicalDesignProcess%20thirth%20segment.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164651.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164651.2"># Assignment 2
+##Mechanical Design Process first segment
+(https://s40723226.github.io/cd2020/content/Mechanical%20Design%20Process%20first%20segment.html)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164706.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164706.2"># Assignment 3
+##翻譯(https://drive.google.com/file/d/1KRb8vX_LB_3hkLwK1z1LOP8wl_StIZOR/view)
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200624164910.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624164910.2">#期末報告結束
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
 </tnodes>
 </leo_file>
