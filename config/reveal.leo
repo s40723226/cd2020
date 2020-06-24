@@ -389,7 +389,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200624161642.2"># week10
-##gm用戶登錄設置
+## gm用戶登錄設置
 ### 1.首先將cd2020pj1 clone下來
 ### 2.啟用API，選擇Google+Domains API
 ### 3.建立憑證，選擇OAuth ID，選擇"網頁應用程式"
@@ -412,7 +412,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200624161739.2"># week11
-##ubuntu設置
+## ubuntu設置
 ### 1.下載vitualbox、ubuntu、CoppeliaSim四輪車控制器檔案。
 ### 2.開啟vitualbox，匯入ubuntu。
 ### 3.設定虛擬主機的網路埠號。
@@ -437,7 +437,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200624161740.2"># week12
-##翻譯：MSModelingAndTFApproaches
+## 翻譯：MSModelingAndTFApproaches
 p121.~p150.
 
 
@@ -452,7 +452,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624161742.2"># week14
-##ubnutu對外連線（ipv4）
+## ubnutu對外連線（ipv4）
 ### 1.設定好埠號登錄ubnutu密碼是kmol2020
 ### .打開Lxterminal並輸入ifconfig和輸入sudo apt install net-tools輸入密碼為kmol2020
 ### .輸入ping6 127.0.0.1測試
@@ -474,7 +474,7 @@ p121.~p150.
 
 						
 </t>
-<t tx="leo.20200624161745.2">#第4次開會紀錄
+<t tx="leo.20200624161745.2"># 第4次開會紀錄
 (https://s40723226.github.io/cd2020/content/%E7%AC%AC4%E6%AC%A1%E9%96%8B%E6%9C%83%E7%B4%80%E9%8C%84.html)
 
 
@@ -503,7 +503,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624161749.2"># week16
-##IPv6連線倉儲
+## IPv6連線倉儲
 ### 1.需先設置好IPv6遠端遙控伺服
 ### 2.開啟主機後clone自己的倉儲
 ### 3.ifconfig查詢主機IPv6位置
@@ -524,7 +524,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624161751.2"># week13
-##filezilla設定
+## filezilla設定
 ### 1.下載 filezilla，設定putty
 ### 2.設定的ip為虛擬主機
 ### .Putty成功啟用後輸入kmol2020
@@ -544,8 +544,8 @@ p121.~p150.
 
 						
 </t>
-<t tx="leo.20200624164208.2">#Assignment 1
-##random grouping
+<t tx="leo.20200624164208.2"># Assignment 1
+## random grouping
 (https://s40723226.github.io/cd2020/content/random%20grouping.html)
 
 
@@ -560,7 +560,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164210.2"># Assignment 1
-##portable system
+## portable system
 (https://s40723226.github.io/cd2020/content/portable%20system.html)
 
 </t>
@@ -574,7 +574,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164212.2"># Assignment 1
-##Four Wheel Car
+## Four Wheel Car
 (https://s40723226.github.io/cd2020/content/Four%20Wheel%20Car.html)
 
 
@@ -589,7 +589,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164214.2"># Assignment 2
-##IndustrialAndEngineeringProductDesignCollaboration
+## IndustrialAndEngineeringProductDesignCollaboration
 (https://s40723226.github.io/cd2020/content/IndustrialAndEngineeringProductDesignCollaboration.html)
 
 
@@ -604,7 +604,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164646.2"># Assignment 2
-##DesignCollaborationBetterProducts
+## DesignCollaborationBetterProducts
 (https://s40723226.github.io/cd2020/content/DesignCollaborationBetterProducts.html)
 
 
@@ -619,7 +619,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164648.2"># Assignment 2
-##MechanicalDesignProcess thirth segment
+## MechanicalDesignProcess thirth segment
 (https://s40723226.github.io/cd2020/content/MechanicalDesignProcess%20thirth%20segment.html)
 
 
@@ -634,7 +634,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164651.2"># Assignment 2
-##Mechanical Design Process first segment
+## Mechanical Design Process first segment
 (https://s40723226.github.io/cd2020/content/Mechanical%20Design%20Process%20first%20segment.html)
 
 </t>
@@ -648,7 +648,7 @@ p121.~p150.
 						
 </t>
 <t tx="leo.20200624164706.2"># Assignment 3
-##翻譯(https://drive.google.com/file/d/1KRb8vX_LB_3hkLwK1z1LOP8wl_StIZOR/view)
+## 翻譯(https://drive.google.com/file/d/1KRb8vX_LB_3hkLwK1z1LOP8wl_StIZOR/view)
 
 
 </t>
@@ -661,7 +661,7 @@ p121.~p150.
 
 						
 </t>
-<t tx="leo.20200624164910.2">#期末報告結束
+<t tx="leo.20200624164910.2"># 期末報告結束
 </t>
 </tnodes>
 </leo_file>
